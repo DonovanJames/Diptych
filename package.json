@@ -18,7 +18,9 @@
     "nedb": "~0.10.4",
     "bookshelf": "~0.6.10",
     "q": "~1.0.1",
-    "redis": "~0.10.1"
+    "redis": "~0.10.1",
+    "dropbox": "*",
+    "dbox": "0.6.1"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -31,7 +33,5 @@
     "grunt-contrib-sass": "*",
     "grunt-cssc": "*",
     "matchdep": "*",
-    "dropbox": "*",
-    "dbox":"*"
   }
 }
