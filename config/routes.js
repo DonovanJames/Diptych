@@ -24,5 +24,7 @@ module.exports = function(app){
     // call back from dropbox authorization
     app.get('/authorize', dropbox.requestToken)
     app.get('/authorized', dropbox.accessToken)
+    app.get('/oauth', dropbox.defaultOauth)
+    app.get('/callback', dropbox.oauthCallback)
 
 };

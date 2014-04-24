@@ -20,7 +20,8 @@
     "q": "~1.0.1",
     "redis": "~0.10.1",
     "dropbox": "*",
-    "dbox": "0.6.1"
+    "dbox": "0.6.1",
+    "mongodb": "*"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -32,6 +33,6 @@
     "load-grunt-tasks": "~0.2.0",
     "grunt-contrib-sass": "*",
     "grunt-cssc": "*",
-    "matchdep": "*",
+    "matchdep": "*"
   }
 }
